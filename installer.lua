@@ -89,11 +89,11 @@ local function makeAutoRun()
   term.clear()
 
   if string.lower(userInput) == "y" then
-    term.write("Auto run created\n")
-
-    local file = assert(io.open(".shrc", "w"))
+    local file = assert(io.open("/home/.shrc", "w"))
     file:write("main")
     file:close()
+
+    term.write("Auto run created\n")
   else
     term.write("Auto run ignored\n")
   end
