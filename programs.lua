@@ -8,7 +8,12 @@ local programs = {
     name = "Meteor Ritual Control",
     description = "Program for automation of meteorite rituals from blood magic",
     url = "https://github.com/Navatusein/GTNH-OC-Meteor-Ritual-Control/releases/latest/download/MeteorRitualControl.tar"
-  }
+  },
+  {
+    name = "LSC Control",
+    description = "Program for managing a battery, generators connected to it and large energy consumers",
+    url = "https://github.com/Navatusein/GTNH-OC-LSC-Control/releases/latest/download/LSCControl.tar"
+  },
 }
 
 return programs
