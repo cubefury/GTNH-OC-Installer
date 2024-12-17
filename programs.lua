@@ -14,6 +14,11 @@ local programs = {
     description = "Program for managing a battery, generators connected to it and large energy consumers",
     url = "https://github.com/Navatusein/GTNH-OC-LSC-Control/releases/latest/download/LSCControl.tar"
   },
+  {
+    name = "Water Line Control",
+    description = "Program for the automation of Grate water production from t3 to t8",
+    url = "https://github.com/GTNH-OC-Water-Line-Control/releases/latest/download/WaterLineControl.tar"
+  },
 }
 
 return programs
