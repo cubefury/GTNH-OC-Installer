@@ -1,0 +1,10 @@
+programs:
+  - name: Infusion control
+    description: Autocraft automation program for runic matrix from thaumcraft
+    archiveUrl: https://github.com/Navatusein/GTNH-OC-Infusion-Control/releases/latest/download/InfusionControl.tar
+    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Infusion-Control/refs/heads/main/config-descriptor.yml
+
+  - name: Water Line Control
+    description: Program for the automation of Grate water production from t3 to t8
+    archiveUrl: https://github.com/Navatusein/GTNH-OC-Water-Line-Control/releases/latest/download/WaterLineControl.tar
+    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Water-Line-Control/refs/heads/main/config-descriptor.yml
