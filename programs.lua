@@ -19,6 +19,11 @@ local programs = {
     description = "Program for the automation of Grate water production from t3 to t8",
     url = "https://github.com/Navatusein/GTNH-OC-Water-Line-Control/releases/latest/download/WaterLineControl.tar"
   },
+  {
+    name = "Teleposer Control",
+    description = "Program to automate the shifting of Teleposition Focus to Teleposer from Blood Magic.",
+    url = "https://github.com/Navatusein/GTNH-OC-Teleposer-Control/releases/latest/download/TeleposerControl.tar"
+  },
 }
 
 return programs
