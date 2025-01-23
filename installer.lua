@@ -3,7 +3,7 @@ local term = require("term")
 local filesystem = require("filesystem")
 local internet = require("internet")
 
-local programListUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Installer/refs/heads/main/programs.lua"
+local programListUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Installer/main/programs.lua"
 
 ---@class ProgramDescription
 ---@field name string
