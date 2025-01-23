@@ -13,3 +13,8 @@ programs:
     description: Program for managing a battery, generators connected to it and large energy consumers
     archiveUrl: https://github.com/Navatusein/GTNH-OC-LSC-Control/releases/latest/download/LSCControl.tar
     configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-LSC-Control/refs/heads/main/config-descriptor.yml
+
+  - name: Teleposer Control
+    description: Program to automate the shifting of Teleposition Focus to Teleposer from Blood Magic.
+    archiveUrl: https://github.com/Navatusein/GTNH-OC-Teleposer-Control/releases/latest/download/TeleposerControl.tar
+    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Teleposer-Control/refs/heads/main/config-descriptor.yml
