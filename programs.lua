@@ -1,7 +1,7 @@
 local programs = {
   {
     name = "Infusion Control",
-    description = "Autocraft automation program for runic matrix from thaumcraft",
+    description = "Program for automating crafts on runic matrix from thaumcraft",
     url = "https://github.com/Navatusein/GTNH-OC-Infusion-Control/releases/latest/download/InfusionControl.tar"
   },
   {
