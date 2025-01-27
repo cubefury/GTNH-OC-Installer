@@ -21,8 +21,13 @@ local programs = {
   },
   {
     name = "Teleposer Control",
-    description = "Program to automate the shifting of Teleposition Focus to Teleposer from Blood Magic.",
+    description = "Program to automate the shifting of Teleposition Focus to Teleposer from Blood Magic",
     url = "https://github.com/Navatusein/GTNH-OC-Teleposer-Control/releases/latest/download/TeleposerControl.tar"
+  },
+  {
+    name = "God Forge Control",
+    description = "Program for automating the production of Degenerate Quark Gluon Plasma and Molten Magmatter",
+    url = "https://github.com/Navatusein/GTNH-OC-God-Forge-Control/releases/latest/download/GodForgeControl.tar"
   },
 }
 
