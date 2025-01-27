@@ -2,19 +2,24 @@ programs:
   - name: Infusion control
     description: Program for automating crafts on runic matrix from thaumcraft
     archiveUrl: https://github.com/Navatusein/GTNH-OC-Infusion-Control/releases/latest/download/InfusionControl.tar
-    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Infusion-Control/refs/heads/main/config-descriptor.yml
+    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Infusion-Control/main/config-descriptor.yml
 
   - name: Water Line Control
     description: Program for the automation of Grate water production from t3 to t8
     archiveUrl: https://github.com/Navatusein/GTNH-OC-Water-Line-Control/releases/latest/download/WaterLineControl.tar
-    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Water-Line-Control/refs/heads/main/config-descriptor.yml
+    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Water-Line-Control/main/config-descriptor.yml
 
   - name: LSC Control
     description: Program for managing a battery, generators connected to it and large energy consumers
     archiveUrl: https://github.com/Navatusein/GTNH-OC-LSC-Control/releases/latest/download/LSCControl.tar
-    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-LSC-Control/refs/heads/main/config-descriptor.yml
+    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-LSC-Control/main/config-descriptor.yml
 
   - name: Teleposer Control
-    description: Program to automate the shifting of Teleposition Focus to Teleposer from Blood Magic.
+    description: Program to automate the shifting of Teleposition Focus to Teleposer from Blood Magic
     archiveUrl: https://github.com/Navatusein/GTNH-OC-Teleposer-Control/releases/latest/download/TeleposerControl.tar
-    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Teleposer-Control/refs/heads/main/config-descriptor.yml
+    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Teleposer-Control/main/config-descriptor.yml
+
+  - name: God Forge Control
+    description: Program for automating the production of Degenerate Quark Gluon Plasma and Molten Magmatter
+    archiveUrl: https://github.com/Navatusein/GTNH-OC-God-Forge-Control/releases/latest/download/GodForgeControl.tar
+    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-God-Forge-Control/main/config-descriptor.yml
