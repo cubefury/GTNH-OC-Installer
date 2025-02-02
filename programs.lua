@@ -29,6 +29,11 @@ local programs = {
     description = "Program for automating the production of Degenerate Quark Gluon Plasma and Molten Magmatter",
     url = "https://github.com/Navatusein/GTNH-OC-God-Forge-Control/releases/latest/download/GodForgeControl.tar"
   },
+  {
+    name = "Black Hole Control",
+    description = "Program for automating crafting in the Pseudostable Black Hole Containment Field",
+    url = "https://github.com/Navatusein/GTNH-OC-Black-Hole-Control/releases/latest/download/BlackHoleControl.tar"
+  },
 }
 
 return programs
