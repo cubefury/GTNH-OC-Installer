@@ -23,3 +23,8 @@ programs:
     description: Program for automating the production of Degenerate Quark Gluon Plasma and Molten Magmatter
     archiveUrl: https://github.com/Navatusein/GTNH-OC-God-Forge-Control/releases/latest/download/GodForgeControl.tar
     configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-God-Forge-Control/main/config-descriptor.yml
+
+  - name: Black Hole Control
+    description: Program for automating crafting in the Pseudostable Black Hole Containment Field
+    archiveUrl: https://github.com/Navatusein/GTNH-OC-Black-Hole-Control/releases/latest/download/BlackHoleControl.tar
+    configDescriptorUrl: https://raw.githubusercontent.com/Navatusein/GTNH-OC-Black-Hole-Control/main/config-descriptor.yml
