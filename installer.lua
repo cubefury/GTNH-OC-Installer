@@ -9,7 +9,34 @@ local programListUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Ins
 ---@field name string
 ---@field description string
 ---@field url string
-local program = {}
+
+---Check if Open OS installed
+local function checkIsOsInstall()
+  local file = io.open("/home/test.txt", "w")
+
+  if file == nil then
+    error("Open OS not installed")
+  end
+
+  shell.execute("rm /home/test.txt")
+end
+
+---Check connection to github
+local function checkGithub()
+  local success, result = pcall(internet.request, programListUrl)
+
+	if not success then
+		if result then
+			if result():match("PKIX") then
+				error("Download server SSL certificates was rejected by Java. Update your Java version or install certificates for github.com manually")
+			else
+				error("Download server is unavailable: "..tostring(result))
+			end
+		else
+			error("Download server is unavailable for unknown reasons")
+		end
+	end
+end
 
 ---Download and install tar utility
 local function downloadTarUtility()
@@ -101,6 +128,9 @@ end
 
 ---Main
 local function main()
+  checkIsOsInstall()
+  checkGithub()
+
   term.clear()
   term.write("Welcome to Navatusein's programs installer\n\n")
 
