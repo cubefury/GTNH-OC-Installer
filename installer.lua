@@ -18,7 +18,7 @@ local function checkIsOsInstall()
   local file = io.open("/home/test.txt", "w")
 
   if file == nil then
-    error("Open OS not installed")
+    error("Open OS is not installed")
   end
 
   file:close()
