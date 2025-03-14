@@ -3,12 +3,15 @@ local term = require("term")
 local filesystem = require("filesystem")
 local internet = require("internet")
 
-local programListUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Installer/main/programs.lua"
-
 ---@class ProgramDescription
 ---@field name string
 ---@field description string
 ---@field url string
+
+local programListUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Installer/main/programs.lua"
+
+local tarManUrl = "https://raw.githubusercontent.com/mpmxyz/ocprograms/master/usr/man/tar.man"
+local tarBinUrl = "https://raw.githubusercontent.com/mpmxyz/ocprograms/master/home/bin/tar.lua"
 
 ---Check if Open OS installed
 local function checkIsOsInstall()
@@ -45,9 +48,6 @@ local function downloadTarUtility()
   if filesystem.exists("/bin/tar.lua") then
     return
   end
-
-  local tarManUrl = "https://raw.githubusercontent.com/mpmxyz/ocprograms/master/usr/man/tar.man"
-  local tarBinUrl = "https://raw.githubusercontent.com/mpmxyz/ocprograms/master/home/bin/tar.lua"
 
   shell.setWorkingDirectory("/usr/man")
   shell.execute("wget -fq "..tarManUrl)
