@@ -18,6 +18,8 @@ local function checkIsOsInstall()
     error("Open OS not installed")
   end
 
+  file:close()
+
   shell.execute("rm /home/test.txt")
 end
 
