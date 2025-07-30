@@ -8,7 +8,7 @@ local internet = require("internet")
 ---@field description string
 ---@field url string
 
-local programListUrl = "https://raw.githubusercontent.com/Navatusein/GTNH-OC-Installer/main/programs.lua"
+local programListUrl = "https://raw.githubusercontent.com/cubefury/GTNH-OC-Installer/main/programs.lua"
 
 local tarManUrl = "https://raw.githubusercontent.com/mpmxyz/ocprograms/master/usr/man/tar.man"
 local tarBinUrl = "https://raw.githubusercontent.com/mpmxyz/ocprograms/master/home/bin/tar.lua"
@@ -134,7 +134,8 @@ local function main()
   checkGithub()
 
   term.clear()
-  term.write("Welcome to Navatusein's programs installer\n\n")
+  term.write("Welcome to cubefury's programs installer\n")
+  term.write("Forked from Navatusein\n\n")
 
   downloadTarUtility()
   local programList = getProgramList(programListUrl)

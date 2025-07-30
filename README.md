@@ -1,5 +1,5 @@
 # GTNH-OC-Installer
 
 ```shell
-pastebin run ESUAMAGx
+pastebin run uuGgDsDy
 ```
